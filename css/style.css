@@ -101,3 +101,34 @@ hr {
     font-size: 11px;
     text-transform: uppercase;
 }
+
+/*media query*/
+@media screen and (max-width: 380px) {
+    .menu {
+        margin: 30px 0 20px 0;
+    }
+    .visual {
+        width: 100%;
+    }
+    .visual img {
+        width: 100%;
+    }
+    .visual {
+        height: auto;
+    }
+    .clips {
+        max-width: 300px; /*최대 넓이를 300px 300px미만의 폭에서는 100%*/
+        flex-direction: column; /*플렉스-방향: 컬럼*/
+    }
+    .clip:nth-child(2) {
+        margin-left: 0;
+    }
+    hr {
+        margin: 30px 0 0 0;
+    }
+    .info {
+        background-color: #005891;
+        color: white;
+        padding: 30px 0;
+    }
+}
