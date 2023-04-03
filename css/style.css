@@ -120,8 +120,8 @@ hr {
         max-width: 300px; /*최대 넓이를 300px 300px미만의 폭에서는 100%*/
         flex-direction: column; /*플렉스-방향: 컬럼*/
     }
-    .clip:nth-child(2) {
-        margin-left: 0;
+    .clip:nth-child(1) {
+        margin-right: 0;
     }
     hr {
         margin: 30px 0 0 0;
